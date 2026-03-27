@@ -1,9 +1,5 @@
+import DashboardPage from "@/app/dashboard/page";
+
 export default function Home() {
-  return (
-    <main className="min-h-screen bg-white flex items-center justify-center">
-      <h1 className="text-black text-4xl font-light">
-        maintenance_dashboard_frontend is being generated
-      </h1>
-    </main>
-  );
+  return <DashboardPage />;
 }
